@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'Codystar';
+    src: url(../fonts/Codystar-Light.ttf);
+}
+
+@font-face {
+    font-family: biryani;
+    src: url(../fonts/biryani/Biryani-Regular.otf);
+}
+
+@font-face {
+    font-family: Biryani ExtraBold;
+    src: url(../fonts/biryani/Biryani-ExtraBold.otf);
+}
+
+* {
+    font-family: biryani;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/*index page*/
+.arrow,
+.arrow:before {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+}
+
+.arrow {
+    width: 40px;
+    height: 40px;
+    margin: -20px 0 0 -20px;
+    -webkit-transform: rotate(45deg);
+    border-left: none;
+    border-top: none;
+    border-right: 2px #000 solid;
+    border-bottom: 2px #000 solid;
+}
+
+.arrow:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    margin: -10px 0 0 -10px;
+    border-left: none;
+    border-top: none;
+    border-right: 1px #000 solid;
+    border-bottom: 1px #000 solid;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: arrow;
+}
+
+@keyframes arrow {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-10px, -10px);
+    }
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.index .section1 {
+    height: 100vh;
+}
+
+.index .section1 .logo {
+    max-height: 70vh;
+    padding-left: 24px;
+    padding-right: 24px;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.index .section1 .bvm-logo {
+    height: 15vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+
+.index .section2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.index .section3 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.section4 {
+    padding-top: 20px;
+}
+
+.index .section4 .row .col {
+    padding: 10.500px;
+}
+
+.index .section4 .ieee {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.index #animation {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.index #canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.index .card {
+    font-size: 1.5rem;
+}
+
+.index .card-image img {
+    height: 250px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.index .card-content {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.section2 p {
+    font-size: 1.5em;
+}
+
+.section5 .row {
+    padding-top: 10px;
+}
+
+/*Committee page*/
+.committee {
+    font-family: 'biryani', Roboto;
+}
+
+/*Department pages*/
+* {
+    font-family: biryani;
+}
+
+.section1 {
+    height: 100vh;
+}
+
+.nav-event {
+    background-color: #0D47A1;
+    padding-top: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.main {
+    padding: 0 !important;
+}
+
+@media only screen and (min-width: 993px) {
+    .nav-event {
+        height: 100vh;
+        position: fixed;
+    }
+
+    #event1, #event2, #event3, #event4, #event5, #event6, #event7 {
+        margin-left: 16.66666vw;
+    }
+
+    .section1 .links {
+        font-size: large;
+    }
+}
+
+#event1, #event2, #event3, #event4, #event5, #event6, #event7 {
+    padding: 0 24px;
+}
+
+#event1 .card-panel, #event2 .card-panel, #event3 .card-panel, #event4 .card-panel, #event5 .card-panel, #event6 .card-panel, #event7 .card-panel {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-event li {
+    padding-bottom: 20px;
+}
+
+.event-button {
+    color: white;
+    padding: 10px !important;
+}
+
+body::after {
+    content: attr(data-bg);
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: hidden;
+    text-align: justify;
+    speak: none;
+    font-family: 'Codystar', cursive;
+    font-size: 30px;
+    color: #000;
+}
+
+blockquote, h4 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.back {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+blockquote {
+    background-color: rgb(255, 255, 255) !important;
+}
