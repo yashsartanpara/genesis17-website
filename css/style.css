@@ -242,3 +242,7 @@ blockquote, h4 {
 blockquote {
     background-color: rgb(255, 255, 255) !important;
 }
+.nav-btn{
+    position: absolute;
+    left: 10px;
+}
