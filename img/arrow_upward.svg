@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW X7 -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="75px" height="75px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
-viewBox="0 0 49798 49798"
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="104px" height="104px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 34059 34059"
  xmlns:xlink="http://www.w3.org/1999/xlink">
  <g id="Layer_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <g id="_777095787632">
-   <polygon fill="white" points="0,0 49798,0 49798,49798 0,49798 "/>
-   <polygon fill="white" points="8299,24899 11225,27825 22824,16247 22824,41499 26974,41499 26974,16247 38553,27845 41499,24899 24899,8299 "/>
-  </g>
+  <polygon fill="white" points="0,17030 3002,20031 14901,8154 14901,34059 19159,34059 19159,8154 31037,20052 34059,17030 17030,0 "/>
  </g>
 </svg>
