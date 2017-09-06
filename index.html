@@ -7,16 +7,13 @@
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <style>
-        .complete{
-            display:none;
-        }
-
-        .more{
-            background:lightblue;
-            color:navy;
-            font-size:13px;
-            padding:3px;
-            cursor:pointer;
+        .section1 .schedule{
+            position: absolute;
+            left: 50%;
+            bottom: 65px;
+            width: 120px;
+            padding: 0;
+            margin: -60px 0 0 -60px;
         }
     </style>
 </head>
@@ -35,9 +32,11 @@
                 <div class="col l12 s12 m12">
                     <img class="logo responsive-img" src="./img/gensis1.svg" alt="Gensis"/>
                     <img class="bvm-logo responsive-img" src="./img/bvm.svg" alt="Bvm"/>
+                    <a href="./schedule.pdf" target="_blank" class="waves-effect waves-light btn deep-orange darken-1 white-text schedule">Schedule</a>
                     <a href="#" onclick="$('#section2').animatescroll();">
                         <div class="arrow"></div>
                     </a>
+
                 </div>
             </div>
         </div>
