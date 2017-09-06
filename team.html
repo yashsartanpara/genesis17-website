@@ -7,22 +7,16 @@
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <style>
-        .team .core-team .card-panel {
-            min-height: 200px;
+        .card-panel{
+            padding:5px;
             text-align: center;
         }
-        .tech-team .card-panel{
-            min-height: 200px;
-        }
-        .team .card-panel span {
-            font-size: 1.3rem;
-            font-family: "Biryani ExtraBold";
-        }
-
         .team .card-panel {
             font-family: "biryani";
         }
-
+        .team .card-panel span {
+            font-family: "Biryani ExtraBold";
+        }
         body::after {
             content: attr(data-bg);
             z-index: -1;
@@ -39,12 +33,27 @@
             font-size: 50px;
             color: #fff;
         }
-
         .team .nav-wrapper {
             fill-opacity: 0.5;
         }
         .head-team{
             padding-top: 20px;
+        }
+        @media only screen and (min-width: 993px) {
+            .team .core-team .card-panel {
+                min-height: 20vh;
+            }
+            .tech-team .card-panel{
+                min-height: 18vh;
+            }
+        }
+        @media only screen and (min-width: 1520px) {
+            .team .core-team .card-panel {
+                min-height: 12.5vh;
+            }
+            .tech-team .card-panel {
+                min-height: 11vh;
+            }
         }
     </style>
 </head>
@@ -67,13 +76,44 @@
 
     <div class="container head-team">
         <div class="row center">
-            <div class="col l3 s12 m6 push-l3">
+            <div class="col l4 s12 m6 push-m3 push-l4">
+                <div class="card-panel">
+                    <span>Dr. Indrajit N. Patel</span><br/>
+                    Principal
+                </div>
+            </div>
+        </div>
+        <div class="row center">
+            <div class="col l4 s12 m6 push-l2">
+                <div class="card-panel">
+                    <span>Prof. B. S. Patel</span><br/>
+                    Vice President
+                </div>
+            </div>
+            <div class="col l4 s12 m6 push-l2">
+                <div class="card-panel">
+                    <span>Dr. B. C. Goradia</span><br/>
+                    Vice President
+                </div>
+            </div>
+        </div>
+        <div class="row center">
+            <div class="col l4 s12 m6 push-m3 push-l4">
+                <div class="card-panel">
+                    <span>Prof. A. N. Bhavsar</span><br/>
+                    Technical Convenor
+                </div>
+            </div>
+        </div>
+
+        <div class="row center">
+            <div class="col l4 s12 m6 push-l2">
                 <div class="card-panel">
                     <span>Jatan Patel</span><br/>
                     General Secretary
                 </div>
             </div>
-            <div class="col l3 s12 m6 push-l3">
+            <div class="col l4 s12 m6 push-l2">
                 <div class="card-panel">
                     <span>Megha Patel</span><br/>
                     Ladies Representive
@@ -88,7 +128,7 @@
 
         <!--Core Team-->
         <div class="core-team row">
-            <div class="col l3 s12 m6 ">
+            <div class="col l3 s12 m6">
                 <div class="card-panel">
                     <span>Umang Patel</span><br/>
                     Technical Secretary
